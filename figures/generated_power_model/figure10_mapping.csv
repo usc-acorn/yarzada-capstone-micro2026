@@ -1,0 +1,8 @@
+primitive,events,coefficient_symbols,coefficients_mW_per_count,top_ptpx_row
+PE tile,"pe_tiles, pe_ports","$\beta_{\mathrm{pe\_tiles}}$, $\beta_{\mathrm{pe\_ports}}$","0.744072, 0.167029",PE
+MEM tile,"mem_tiles, mem_ports","$\beta_{\mathrm{mem\_tiles}}$, $\beta_{\mathrm{mem\_ports}}$","1.14786, 0.166488",MEM
+REG,"registers, pipeline_regs","$\beta_{\mathrm{registers}}$, $\beta_{\mathrm{pipeline}}$","0.0334188, 0.0276786",REG
+IO tile,io_tiles,$\beta_{\mathrm{IO\_tiles}}$,0.517798,IO
+IC (SB),ic_sb,$\beta_{\mathrm{ic\_sb}}$,0.025965,SB
+IC (RMUX),ic_rmux,$\beta_{\mathrm{ic\_rmux}}$,0.0480556,RMUX
+IC (PORT),ic_port,$\beta_{\mathrm{ic\_port}}$,0.0399629,PORT

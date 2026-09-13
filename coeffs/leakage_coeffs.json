@@ -1,0 +1,17 @@
+{
+  "model": "Pleak = sum_j theta[j]*Z[j] (theta >= 0 ridge, then clamped)",
+  "feature_order": [
+    "num_pe_tiles",
+    "num_mem_tiles",
+    "num_io_tiles",
+    "num_pipeline_regs",
+    "bias"
+  ],
+  "theta_mW_per_count": {
+    "num_pe_tiles": 0.00015618331667396941,
+    "num_mem_tiles": 0.0005963323850723349,
+    "num_io_tiles": 0.0005963323135265115,
+    "num_pipeline_regs": 2.4821606866183925e-05,
+    "bias": 0.0
+  }
+}

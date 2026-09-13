@@ -1,0 +1,13 @@
+Synthetic PrimeTime PX-like hierarchy report
+Hierarchy                                      Int Power Switch Power Leak Power Total Power %
+-----------------------------------------------------------------------------------------------
+BLOCK_0_application_graph                    8.30765276e-02 3.23075385e-02 1.01113056e-03 1.16395197e-01 100.00
+  pe_cluster (synthetic_pe_tile)               1.44204417e-02 5.60794953e-03 1.75512262e-04 2.02039035e-02 17.36
+  mem_cluster (synthetic_mem_tile)             9.60632536e-03 3.73579320e-03 1.16919296e-04 1.34590379e-02 11.56
+  io_cluster (synthetic_io_tile)               2.91922898e-03 1.13525572e-03 3.55301518e-05 4.09001485e-03 3.51
+  switchbox (synthetic_SB_route)               1.79614163e-02 6.98499525e-03 2.18609727e-04 2.51650213e-02 21.62
+  rmux (synthetic_RMUX_route)                  1.66339738e-02 6.46876759e-03 2.02453325e-04 2.33051947e-02 20.02
+  route_reg (synthetic_REG_route)              1.16310822e-02 4.52319865e-03 1.41562762e-04 1.62958437e-02 14.00
+  pipeline (synthetic_pipeline_reg)            4.84930159e-03 1.88583951e-03 5.90212083e-05 6.79416231e-03 5.84
+  port (synthetic_PORT_route)                  2.52126075e-03 9.80490292e-04 3.06864510e-05 3.53243749e-03 3.03
+  other_logic                                  2.53349687e-03 9.85248783e-04 3.08353778e-05 3.54958103e-03 3.05

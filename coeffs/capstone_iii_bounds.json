@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "description": "Public release bound construction used by the included controller traces. Event bounds are fractions of the released pre-gamma dynamic coefficients.",
+  "eps_fit_mW_per_count": {
+    "num_pe_tiles": 0.0,
+    "num_pe_ports": 0.11254733300077009,
+    "num_mem_tiles": 0.04987855913007275,
+    "num_mem_ports": 0.037560829019248204,
+    "num_io_tiles": 0.08141600847597008,
+    "num_ic_rmux": 0.0020419933247804076,
+    "num_ic_reg": 0.0014318890323893505,
+    "num_ic_port": 7.001430611587062e-05,
+    "num_ic_sb": 0.0020442325127888647,
+    "num_pipeline_regs": 0.0005870210078500566,
+    "bias": 0.9242629938435747
+  },
+  "eps_act_mW_per_count": {
+    "num_pe_tiles": 0.0,
+    "num_pe_ports": 0.09003786640061608,
+    "num_mem_tiles": 0.0399028473040582,
+    "num_mem_ports": 0.030048663215398563,
+    "num_io_tiles": 0.06513280678077607,
+    "num_ic_rmux": 0.001633594659824326,
+    "num_ic_reg": 0.0011455112259114804,
+    "num_ic_port": 5.601144489269649e-05,
+    "num_ic_sb": 0.001635386010231092,
+    "num_pipeline_regs": 0.0004696168062800453,
+    "bias": 0.7394103950748597
+  },
+  "eps_pvt_mW_per_count": {
+    "num_pe_tiles": 0.0,
+    "num_pe_ports": 0.06752839980046205,
+    "num_mem_tiles": 0.029927135478043647,
+    "num_mem_ports": 0.022536497411548922,
+    "num_io_tiles": 0.048849605085582046,
+    "num_ic_rmux": 0.0012251959948682443,
+    "num_ic_reg": 0.0008591334194336102,
+    "num_ic_port": 4.200858366952236e-05,
+    "num_ic_sb": 0.0012265395076733188,
+    "num_pipeline_regs": 0.00035221260471003397,
+    "bias": 0.5545577963061448
+  },
+  "eps_ood_mW_per_count": {
+    "num_pe_tiles": 0.0,
+    "num_pe_ports": 0.06752839980046205,
+    "num_mem_tiles": 0.029927135478043647,
+    "num_mem_ports": 0.022536497411548922,
+    "num_io_tiles": 0.048849605085582046,
+    "num_ic_rmux": 0.0012251959948682443,
+    "num_ic_reg": 0.0008591334194336102,
+    "num_ic_port": 4.200858366952236e-05,
+    "num_ic_sb": 0.0012265395076733188,
+    "num_pipeline_regs": 0.00035221260471003397,
+    "bias": 0.5545577963061448
+  },
+  "eps_leak_mW": 0.1,
+  "use_budgeted_uncertainty": false,
+  "gamma_budget": null
+}

@@ -1,0 +1,530 @@
+{
+  "run_id": "SIM_DIR-1784864471",
+  "kernel": "SIM_DIR",
+  "power_cap_mW": 650.0,
+  "trajectory_end_reason": "maximal pipeline candidate reached",
+  "trajectory": {
+    "iterations": 120,
+    "critical_path_breaks": 120,
+    "candidates_evaluated": 121,
+    "successful_post_pnr_iterations": 120
+  },
+  "guardband": {
+    "anchor_gamma": 0.45,
+    "spec_gamma": 0.3
+  },
+  "power_model_scaling": {
+    "enabled": true,
+    "freq_ref_mhz": 100.0,
+    "II_ref": 1.0,
+    "raw_pipeline_config_interval": 0.0
+  },
+  "conformal": {
+    "calibration_json": "/aha/archipelago/archipelago/coeffs/capstone_ii_calibration.json",
+    "n_global": 8,
+    "anchor_k": 9,
+    "spec_k": 9,
+    "anchor_q_mW": 41.6,
+    "spec_q_mW": 26.0,
+    "anchor_alpha": 0.005,
+    "spec_alpha": 0.05,
+    "anchor_source": "explicit engineering input; no conformal claim",
+    "spec_source": "explicit engineering input",
+    "anchor_has_finite_conformal_guarantee": false,
+    "scale_by_freq": true,
+    "freq_ref_mhz": 100.0
+  },
+  "selected_modes": {
+    "baseline": {
+      "iteration": 120,
+      "breaks": 120,
+      "f_mhz": 479.0,
+      "P_mean_mW": 770.1248008421064,
+      "P_upper_mW": 1116.6809612210543,
+      "predicted_headroom_mW": null,
+      "tag": "ANCHOR"
+    },
+    "capstone_i": {
+      "iteration": 66,
+      "breaks": 66,
+      "f_mhz": 303.0,
+      "P_mean_mW": 448.0489121019552,
+      "P_upper_mW": 649.670922547835,
+      "predicted_headroom_mW": 0.3290774521650519,
+      "tag": "ANCHOR"
+    },
+    "capstone_ii": {
+      "iteration": 73,
+      "breaks": 73,
+      "f_mhz": 337.0,
+      "P_mean_mW": 504.0269239503728,
+      "P_upper_mW": 644.2189239503728,
+      "predicted_headroom_mW": 5.781076049627245,
+      "tag": "ANCHOR"
+    },
+    "capstone_iii_fit_1x": {
+      "iteration": 83,
+      "breaks": 83,
+      "f_mhz": 403.0,
+      "P_mean_mW": 612.4353503381174,
+      "P_upper_mW": 643.1564283897753,
+      "predicted_headroom_mW": 6.8435716102246715,
+      "tag": "ANCHOR"
+    },
+    "capstone_iii_fit_2x": {
+      "iteration": 79,
+      "breaks": 79,
+      "f_mhz": 390.0,
+      "P_mean_mW": 588.9309024684418,
+      "P_upper_mW": 647.9226137847899,
+      "predicted_headroom_mW": 2.07738621521014,
+      "tag": "ANCHOR"
+    },
+    "capstone_iii_fit_activity": {
+      "iteration": 80,
+      "breaks": 80,
+      "f_mhz": 394.0,
+      "P_mean_mW": 595.9186347273625,
+      "P_upper_mW": 649.6500708153786,
+      "predicted_headroom_mW": 0.3499291846213737,
+      "tag": "ANCHOR"
+    },
+    "capstone_iii_fit_activity_pvt": {
+      "iteration": 78,
+      "breaks": 78,
+      "f_mhz": 379.0,
+      "P_mean_mW": 571.4084721958184,
+      "P_upper_mW": 640.0758341427213,
+      "predicted_headroom_mW": 9.924165857278695,
+      "tag": "ANCHOR"
+    },
+    "capstone_iii_full": {
+      "iteration": 77,
+      "breaks": 77,
+      "f_mhz": 374.0,
+      "P_mean_mW": 562.9699041153505,
+      "P_upper_mW": 647.5133213369089,
+      "predicted_headroom_mW": 2.4866786630910838,
+      "tag": "ANCHOR"
+    }
+  },
+  "final_bitstreams": {
+    "baseline": [
+      {
+        "iteration": 120,
+        "breaks": 120,
+        "f_mhz": 479.0,
+        "P_mean_mW": 770.1248008421064,
+        "P_upper_mW": 1116.6809612210543,
+        "predicted_headroom_mW": null,
+        "tag": "ANCHOR"
+      },
+      {
+        "iteration": 119,
+        "breaks": 119,
+        "f_mhz": 479.0,
+        "P_mean_mW": 768.9927938415301,
+        "P_upper_mW": 999.6906319939892,
+        "predicted_headroom_mW": null,
+        "tag": "SPEC"
+      },
+      {
+        "iteration": 118,
+        "breaks": 118,
+        "f_mhz": 477.0,
+        "P_mean_mW": 764.6543228508164,
+        "P_upper_mW": 994.0506197060613,
+        "predicted_headroom_mW": null,
+        "tag": "SPEC"
+      }
+    ],
+    "capstone_i": [
+      {
+        "iteration": 66,
+        "breaks": 66,
+        "f_mhz": 303.0,
+        "P_mean_mW": 448.0489121019552,
+        "P_upper_mW": 649.670922547835,
+        "predicted_headroom_mW": 0.3290774521650519,
+        "tag": "ANCHOR"
+      },
+      {
+        "iteration": 72,
+        "breaks": 72,
+        "f_mhz": 325.0,
+        "P_mean_mW": 485.2953905574686,
+        "P_upper_mW": 630.8840077247091,
+        "predicted_headroom_mW": 19.115992275290864,
+        "tag": "SPEC"
+      },
+      {
+        "iteration": 70,
+        "breaks": 70,
+        "f_mhz": 313.0,
+        "P_mean_mW": 465.8650497055012,
+        "P_upper_mW": 605.6245646171516,
+        "predicted_headroom_mW": 44.37543538284842,
+        "tag": "SPEC"
+      },
+      {
+        "iteration": 71,
+        "breaks": 71,
+        "f_mhz": 313.0,
+        "P_mean_mW": 466.6213805461842,
+        "P_upper_mW": 606.6077947100395,
+        "predicted_headroom_mW": 43.39220528996054,
+        "tag": "SPEC"
+      }
+    ],
+    "capstone_ii": [
+      {
+        "iteration": 73,
+        "breaks": 73,
+        "f_mhz": 337.0,
+        "P_mean_mW": 504.0269239503728,
+        "P_upper_mW": 644.2189239503728,
+        "predicted_headroom_mW": 5.781076049627245,
+        "tag": "ANCHOR"
+      },
+      {
+        "iteration": 75,
+        "breaks": 75,
+        "f_mhz": 354.0,
+        "P_mean_mW": 531.1595076015798,
+        "P_upper_mW": 623.1995076015797,
+        "predicted_headroom_mW": 26.80049239842026,
+        "tag": "SPEC"
+      },
+      {
+        "iteration": 74,
+        "breaks": 74,
+        "f_mhz": 347.0,
+        "P_mean_mW": 519.8199367932684,
+        "P_upper_mW": 610.0399367932685,
+        "predicted_headroom_mW": 39.96006320673155,
+        "tag": "SPEC"
+      }
+    ],
+    "capstone_iii_fit_1x": [
+      {
+        "iteration": 83,
+        "breaks": 83,
+        "f_mhz": 403.0,
+        "P_mean_mW": 612.4353503381174,
+        "P_upper_mW": 643.1564283897753,
+        "predicted_headroom_mW": 6.8435716102246715,
+        "tag": "ANCHOR"
+      },
+      {
+        "iteration": 82,
+        "breaks": 82,
+        "f_mhz": 400.0,
+        "P_mean_mW": 606.9158436293023,
+        "P_upper_mW": 637.3609463455196,
+        "predicted_headroom_mW": 12.639053654480449,
+        "tag": "SPEC"
+      },
+      {
+        "iteration": 81,
+        "breaks": 81,
+        "f_mhz": 397.0,
+        "P_mean_mW": 601.4102694706709,
+        "P_upper_mW": 631.5800934789564,
+        "predicted_headroom_mW": 18.419906521043572,
+        "tag": "SPEC"
+      },
+      {
+        "iteration": 80,
+        "breaks": 80,
+        "f_mhz": 394.0,
+        "P_mean_mW": 595.9186347273625,
+        "P_upper_mW": 625.8138769984826,
+        "predicted_headroom_mW": 24.186123001517444,
+        "tag": "SPEC"
+      }
+    ],
+    "capstone_iii_fit_2x": [
+      {
+        "iteration": 79,
+        "breaks": 79,
+        "f_mhz": 390.0,
+        "P_mean_mW": 588.9309024684418,
+        "P_upper_mW": 647.9226137847899,
+        "predicted_headroom_mW": 2.07738621521014,
+        "tag": "ANCHOR"
+      },
+      {
+        "iteration": 78,
+        "breaks": 78,
+        "f_mhz": 379.0,
+        "P_mean_mW": 571.4084721958184,
+        "P_upper_mW": 628.6479404849041,
+        "predicted_headroom_mW": 21.352059515095902,
+        "tag": "SPEC"
+      },
+      {
+        "iteration": 77,
+        "breaks": 77,
+        "f_mhz": 374.0,
+        "P_mean_mW": 562.9699041153505,
+        "P_upper_mW": 619.3655155963894,
+        "predicted_headroom_mW": 30.6344844036106,
+        "tag": "SPEC"
+      },
+      {
+        "iteration": 76,
+        "breaks": 76,
+        "f_mhz": 373.0,
+        "P_mean_mW": 560.5662360077047,
+        "P_upper_mW": 616.721480677979,
+        "predicted_headroom_mW": 33.278519322021,
+        "tag": "SPEC"
+      }
+    ],
+    "capstone_iii_fit_activity": [
+      {
+        "iteration": 80,
+        "breaks": 80,
+        "f_mhz": 394.0,
+        "P_mean_mW": 595.9186347273625,
+        "P_upper_mW": 649.6500708153786,
+        "predicted_headroom_mW": 0.3499291846213737,
+        "tag": "ANCHOR"
+      },
+      {
+        "iteration": 79,
+        "breaks": 79,
+        "f_mhz": 390.0,
+        "P_mean_mW": 588.9309024684418,
+        "P_upper_mW": 642.0334426531551,
+        "predicted_headroom_mW": 7.966557346844866,
+        "tag": "SPEC"
+      },
+      {
+        "iteration": 78,
+        "breaks": 78,
+        "f_mhz": 379.0,
+        "P_mean_mW": 571.4084721958184,
+        "P_upper_mW": 622.9339936559956,
+        "predicted_headroom_mW": 27.06600634400445,
+        "tag": "SPEC"
+      },
+      {
+        "iteration": 77,
+        "breaks": 77,
+        "f_mhz": 374.0,
+        "P_mean_mW": 562.9699041153505,
+        "P_upper_mW": 613.7359544482855,
+        "predicted_headroom_mW": 36.2640455517145,
+        "tag": "SPEC"
+      }
+    ],
+    "capstone_iii_fit_activity_pvt": [
+      {
+        "iteration": 78,
+        "breaks": 78,
+        "f_mhz": 379.0,
+        "P_mean_mW": 571.4084721958184,
+        "P_upper_mW": 640.0758341427213,
+        "predicted_headroom_mW": 9.924165857278695,
+        "tag": "ANCHOR"
+      },
+      {
+        "iteration": 77,
+        "breaks": 77,
+        "f_mhz": 374.0,
+        "P_mean_mW": 562.9699041153505,
+        "P_upper_mW": 630.6246378925972,
+        "predicted_headroom_mW": 19.375362107402793,
+        "tag": "SPEC"
+      },
+      {
+        "iteration": 76,
+        "breaks": 76,
+        "f_mhz": 373.0,
+        "P_mean_mW": 560.5662360077047,
+        "P_upper_mW": 627.9325296120339,
+        "predicted_headroom_mW": 22.06747038796607,
+        "tag": "SPEC"
+      },
+      {
+        "iteration": 75,
+        "breaks": 75,
+        "f_mhz": 354.0,
+        "P_mean_mW": 531.1595076015798,
+        "P_upper_mW": 594.9969937971741,
+        "predicted_headroom_mW": 55.00300620282587,
+        "tag": "SPEC"
+      }
+    ],
+    "capstone_iii_full": [
+      {
+        "iteration": 77,
+        "breaks": 77,
+        "f_mhz": 374.0,
+        "P_mean_mW": 562.9699041153505,
+        "P_upper_mW": 647.5133213369089,
+        "predicted_headroom_mW": 2.4866786630910838,
+        "tag": "ANCHOR"
+      },
+      {
+        "iteration": 76,
+        "breaks": 76,
+        "f_mhz": 373.0,
+        "P_mean_mW": 560.5662360077047,
+        "P_upper_mW": 644.7491030131163,
+        "predicted_headroom_mW": 5.250896986883731,
+        "tag": "SPEC"
+      },
+      {
+        "iteration": 75,
+        "breaks": 75,
+        "f_mhz": 354.0,
+        "P_mean_mW": 531.1595076015798,
+        "P_upper_mW": 610.9313653460727,
+        "predicted_headroom_mW": 39.06863465392735,
+        "tag": "SPEC"
+      },
+      {
+        "iteration": 74,
+        "breaks": 74,
+        "f_mhz": 347.0,
+        "P_mean_mW": 519.8199367932684,
+        "P_upper_mW": 597.8908589165146,
+        "predicted_headroom_mW": 52.10914108348538,
+        "tag": "SPEC"
+      }
+    ]
+  },
+  "figure11_timing": {
+    "run_id": "SIM_DIR-1784864471",
+    "kernel": "SIM_DIR",
+    "timing_method": "shared_trajectory_component_accounting",
+    "successful_post_pnr_iterations": 120,
+    "candidate_evaluations_including_iteration_0": 121,
+    "trajectory_iterations": 120,
+    "trajectory_breaks": 120,
+    "sta_total_s": 316.4537402619608,
+    "sta_per_iteration_s": 2.6371145021830062,
+    "sta_share_pct": 88.7419661425565,
+    "pipelining_total_s": 33.38200231688097,
+    "pipelining_per_iteration_s": 0.2781833526406748,
+    "pipelining_share_pct": 9.361192940627369,
+    "capstone_predictor_total_s": 0.7703591044992208,
+    "capstone_predictor_per_iteration_s": 0.0064196592041601734,
+    "capstone_predictor_share_pct": 0.21602898898426318,
+    "post_pnr_iterations_total_s": 356.5998749155551,
+    "post_pnr_iteration_mean_s": 2.9716656242962927,
+    "pipeline_search_loop_total_s": 356.6519948882051,
+    "signoff_power_s": "",
+    "baseline_compile_estimate_s": 351.3170178583823,
+    "capstone_i_compile_estimate_s": 200.49153212225065,
+    "capstone_ii_compile_estimate_s": 209.52788323629647,
+    "capstone_iii_compile_estimate_s": 215.55436338111758,
+    "baseline_normalized_compile_time": 1.0,
+    "capstone_i_normalized_compile_time": 0.5706855117478818,
+    "capstone_ii_normalized_compile_time": 0.5964068706764392,
+    "capstone_iii_normalized_compile_time": 0.6135608365775456,
+    "controller_total_s_json": "{\"baseline\": 0.705451772082597, \"capstone_i\": 0.39572834176942706, \"capstone_ii\": 0.4190468555316329, \"capstone_iii_fit_1x\": 0.46105080423876643, \"capstone_iii_fit_2x\": 0.4340058225207031, \"capstone_iii_fit_activity\": 0.43720920756459236, \"capstone_iii_fit_activity_pvt\": 0.426345219835639, \"capstone_iii_full\": 0.4226338849402964}"
+  },
+  "table8": [
+    {
+      "bound_mode": "fit_1x",
+      "K": 90,
+      "retained_count": 84,
+      "selected": {
+        "iteration": 83,
+        "breaks": 83,
+        "f_mhz": 403.0,
+        "P_mean_mW": 612.4353503381174,
+        "P_upper_mW": 643.1564283897753,
+        "predicted_headroom_mW": 6.8435716102246715,
+        "tag": "ANCHOR"
+      }
+    },
+    {
+      "bound_mode": "fit_2x",
+      "K": 90,
+      "retained_count": 80,
+      "selected": {
+        "iteration": 79,
+        "breaks": 79,
+        "f_mhz": 390.0,
+        "P_mean_mW": 588.9309024684418,
+        "P_upper_mW": 647.9226137847899,
+        "predicted_headroom_mW": 2.07738621521014,
+        "tag": "ANCHOR"
+      }
+    },
+    {
+      "bound_mode": "fit_activity",
+      "K": 90,
+      "retained_count": 81,
+      "selected": {
+        "iteration": 80,
+        "breaks": 80,
+        "f_mhz": 394.0,
+        "P_mean_mW": 595.9186347273625,
+        "P_upper_mW": 649.6500708153786,
+        "predicted_headroom_mW": 0.3499291846213737,
+        "tag": "ANCHOR"
+      }
+    },
+    {
+      "bound_mode": "fit_activity_pvt",
+      "K": 90,
+      "retained_count": 79,
+      "selected": {
+        "iteration": 78,
+        "breaks": 78,
+        "f_mhz": 379.0,
+        "P_mean_mW": 571.4084721958184,
+        "P_upper_mW": 640.0758341427213,
+        "predicted_headroom_mW": 9.924165857278695,
+        "tag": "ANCHOR"
+      }
+    },
+    {
+      "bound_mode": "full",
+      "K": 90,
+      "retained_count": 78,
+      "selected": {
+        "iteration": 77,
+        "breaks": 77,
+        "f_mhz": 374.0,
+        "P_mean_mW": 562.9699041153505,
+        "P_upper_mW": 647.5133213369089,
+        "predicted_headroom_mW": 2.4866786630910838,
+        "tag": "ANCHOR"
+      }
+    },
+    {
+      "bound_mode": "full",
+      "K": 8,
+      "retained_count": 8,
+      "selected": {
+        "iteration": 77,
+        "breaks": 77,
+        "f_mhz": 374.0,
+        "P_mean_mW": 562.9699041153505,
+        "P_upper_mW": 647.5133213369089,
+        "predicted_headroom_mW": 2.4866786630910838,
+        "tag": "ANCHOR"
+      }
+    },
+    {
+      "bound_mode": "full",
+      "K": 4,
+      "retained_count": 4,
+      "selected": {
+        "iteration": 77,
+        "breaks": 77,
+        "f_mhz": 374.0,
+        "P_mean_mW": 562.9699041153505,
+        "P_upper_mW": 647.5133213369089,
+        "predicted_headroom_mW": 2.4866786630910838,
+        "tag": "ANCHOR"
+      }
+    }
+  ]
+}

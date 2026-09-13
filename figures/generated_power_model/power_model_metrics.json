@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "is_synthetic": true,
+  "warning": "Synthetic functional demonstration; values do not reproduce the paper.",
+  "figure9_all": {
+    "capstone": {
+      "MAE_mW": 11.961390860953259,
+      "MAPE_percent": 7.54306145833786,
+      "R2": 0.8818429131818063,
+      "slope_through_origin": 0.9465716686531129
+    },
+    "oracle": {
+      "MAE_mW": 1.1285571814321622,
+      "MAPE_percent": 0.8522108009301946,
+      "R2": 0.9991579377089533,
+      "slope_through_origin": 0.9984416697845365
+    }
+  },
+  "figure9_train": {
+    "capstone": {
+      "MAE_mW": 6.540741687879937,
+      "MAPE_percent": 4.109301228783808,
+      "R2": 0.9709801859792363,
+      "slope_through_origin": 0.9937819979625258
+    }
+  },
+  "figure9_heldout": {
+    "count": 3,
+    "capstone": {
+      "MAE_mW": 26.416455322482122,
+      "MAPE_percent": 16.69975540381533,
+      "R2": 0.5284556671069207,
+      "slope_through_origin": 0.8395883539051353
+    }
+  },
+  "figure10": {
+    "workload": "vec_elemadd",
+    "ptpx_breakdown_total_mW": 67.3546155592,
+    "model_breakdown_total_mW": 67.39878250899858,
+    "model_prediction_mW": 67.39878250899858
+  }
+}

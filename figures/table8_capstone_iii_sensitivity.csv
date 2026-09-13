@@ -1,0 +1,9 @@
+setting,bound_construction,bound_mode,success_pct,avg_norm_freq,median_delta_cap_pct,K,min_retained_count
+1× fit,ε_fit,fit_1x,100.0,1.0771502520541958,5.455220866220657,90,53
+2× fit,2ε_fit,fit_2x,100.0,1.0416021191507048,9.491983160656078,90,51
+Fit + activity,ε_fit + ε_act,fit_activity,100.0,1.0488949503198732,8.59989584959531,90,51
+Fit + activity + PVT,ε_fit + ε_act + ε_PVT,fit_activity_pvt,100.0,1.0208237853334807,11.82091612153797,90,50
+Full bounds,ε_fit + ε_act + ε_PVT + ε_OOD,full,100.0,1.0,13.851293110149957,90,49
+Unpruned,Full bounds,unpruned,100.0,1.0,13.851293110149957,90,49
+Pruned to K ≤ 8,"Full bounds, top 8 retained",full,100.0,1.0,13.851293110149957,8,8
+Pruned to K ≤ 4,"Full bounds, top 4 retained",full,100.0,1.0,13.851293110149957,4,4

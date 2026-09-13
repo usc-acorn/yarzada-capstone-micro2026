@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "is_synthetic": true,
+  "seed": 7,
+  "teacher_dynamic_mw_per_count": {
+    "num_pe_tiles": 0.74,
+    "num_pe_ports": 0.13,
+    "num_mem_tiles": 1.08,
+    "num_mem_ports": 0.16,
+    "num_io_tiles": 0.48,
+    "num_ic_rmux": 0.045,
+    "num_ic_reg": 0.031,
+    "num_ic_port": 0.038,
+    "num_ic_sb": 0.024,
+    "num_pipeline_regs": 0.026,
+    "bias": 3.4
+  },
+  "teacher_leakage_mw_per_count": {
+    "num_pe_tiles": 0.01,
+    "num_mem_tiles": 0.015,
+    "num_io_tiles": 0.008,
+    "num_pipeline_regs": 0.0012,
+    "bias": 0.3
+  },
+  "per_workload_truth": [
+    {
+      "workload": "vec_elemadd",
+      "split": "train",
+      "gamma": 0.9425782827412932,
+      "dynamic_mW": 66.58325923213803,
+      "leakage_mW": 0.7713563257679067,
+      "total_mW": 67.35461555790594
+    },
+    {
+      "workload": "tensor3_ttv",
+      "split": "train",
+      "gamma": 0.9687744630162536,
+      "dynamic_mW": 95.65823988930302,
+      "leakage_mW": 0.9705208310789033,
+      "total_mW": 96.62876072038192
+    },
+    {
+      "workload": "mat_elemmul",
+      "split": "train",
+      "gamma": 1.0426609885677938,
+      "dynamic_mW": 115.38406609973161,
+      "leakage_mW": 1.0111305607889962,
+      "total_mW": 116.39519666052061
+    },
+    {
+      "workload": "mat_mask_tri",
+      "split": "train",
+      "gamma": 1.055762519639232,
+      "dynamic_mW": 152.0355346366831,
+      "leakage_mW": 1.2136801502885557,
+      "total_mW": 153.24921478697166
+    },
+    {
+      "workload": "mat_sddmm",
+      "split": "train",
+      "gamma": 1.081338210800931,
+      "dynamic_mW": 186.33434798102613,
+      "leakage_mW": 1.4827392695660067,
+      "total_mW": 187.81708725059212
+    },
+    {
+      "workload": "mat_mattransmul",
+      "split": "train",
+      "gamma": 1.1556793182045457,
+      "dynamic_mW": 179.32898093834265,
+      "leakage_mW": 1.290381903159938,
+      "total_mW": 180.61936284150258
+    },
+    {
+      "workload": "tensor3_mttkrp",
+      "split": "train",
+      "gamma": 1.2275068567153413,
+      "dynamic_mW": 216.34609083256203,
+      "leakage_mW": 1.4274802661251669,
+      "total_mW": 217.7735710986872
+    },
+    {
+      "workload": "tensor3_innerprod",
+      "split": "train",
+      "gamma": 1.1520479747409251,
+      "dynamic_mW": 150.1684387770285,
+      "leakage_mW": 1.1260377308788114,
+      "total_mW": 151.29447650790732
+    },
+    {
+      "workload": "harris",
+      "split": "heldout",
+      "gamma": 1.2606093248181942,
+      "dynamic_mW": 168.51964428135275,
+      "leakage_mW": 1.1560311914764132,
+      "total_mW": 169.67567547282917
+    },
+    {
+      "workload": "unsharp",
+      "split": "heldout",
+      "gamma": 1.3265853267367447,
+      "dynamic_mW": 204.75953206652383,
+      "leakage_mW": 1.2437953621905662,
+      "total_mW": 206.00332742871439
+    },
+    {
+      "workload": "gaussian",
+      "split": "heldout",
+      "gamma": 1.2388743681166758,
+      "dynamic_mW": 109.66663145733712,
+      "leakage_mW": 0.9197738403800629,
+      "total_mW": 110.58640529771718
+    }
+  ],
+  "warning": "Synthetic values are not derived from and do not reproduce the paper's NDA-protected PTPX data."
+}

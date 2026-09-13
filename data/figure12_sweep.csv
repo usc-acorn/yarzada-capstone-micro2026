@@ -1,0 +1,40 @@
+panel,run_id,kernel,mode,mode_label,cap_mW,safe_candidate_found,iteration,breaks,f_mhz,P_mean_mW,P_selection_upper_mW,delta_cap_pct,selection_rule,capstone_ii_anchor_fraction,freq_ref_mhz
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,baseline,Baseline (no capping),500.0,True,114,114,431.0,702.3634282063533,702.3634282063533,,uncapped,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_i,Capstone I,500.0,True,48,48,230.0,338.0930817069374,490.23496847505925,32.38138365861251,guardband anchor upper,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_ii,Capstone II,500.0,True,65,65,269.0,406.6240438839099,492.7040438839099,18.675191223218018,cap-normalized anchor margin with frequency scaling,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_iii_full,Capstone III,500.0,True,68,68,281.0,426.81627633361677,490.9365753821816,14.636744733276647,full bounded-error robust upper,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,baseline,Baseline (no capping),550.0,True,114,114,431.0,702.3634282063533,702.3634282063533,,uncapped,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_i,Capstone I,550.0,True,59,59,246.0,368.2535428741892,533.9676371675743,33.04481038651106,guardband anchor upper,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_ii,Capstone II,550.0,True,68,68,281.0,426.81627633361677,525.7282763336168,22.397040666615133,cap-normalized anchor margin with frequency scaling,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_iii_full,Capstone III,550.0,True,71,71,303.0,462.44202557984164,531.9061870153403,15.919631712756065,full bounded-error robust upper,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,baseline,Baseline (no capping),600.0,True,114,114,431.0,702.3634282063533,702.3634282063533,,uncapped,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_i,Capstone I,600.0,True,65,65,269.0,406.6240438839099,589.6048636316693,32.22932601934835,guardband anchor upper,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_ii,Capstone II,600.0,True,73,73,313.0,479.22403074436903,599.416030744369,20.12932820927183,cap-normalized anchor margin with frequency scaling,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_iii_full,Capstone III,600.0,True,77,77,338.0,520.7780073788725,598.9925660842258,13.203665436854578,full bounded-error robust upper,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,baseline,Baseline (no capping),650.0,True,114,114,431.0,702.3634282063533,702.3634282063533,,uncapped,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_i,Capstone I,650.0,True,68,68,281.0,426.81627633361677,618.8836006837442,34.33595748713588,guardband anchor upper,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_ii,Capstone II,650.0,True,76,76,332.0,510.7292456067541,648.8412456067541,21.426269906653218,cap-normalized anchor margin with frequency scaling,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_iii_full,Capstone III,650.0,True,84,84,360.0,560.767549479054,644.9805394994345,13.728069310914776,full bounded-error robust upper,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,baseline,Baseline (no capping),700.0,True,114,114,431.0,702.3634282063533,702.3634282063533,,uncapped,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_i,Capstone I,700.0,True,73,73,313.0,479.22403074436903,694.8748445793351,31.53942417937585,guardband anchor upper,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_ii,Capstone II,700.0,True,80,80,346.0,535.6162921346598,690.6242921346599,23.48338683790574,cap-normalized anchor margin with frequency scaling,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_iii_full,Capstone III,700.0,True,89,89,384.0,602.7803565536133,693.2952676351775,13.88852049234096,full bounded-error robust upper,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,baseline,Baseline (no capping),750.0,True,114,114,431.0,702.3634282063533,702.3634282063533,,uncapped,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_i,Capstone I,750.0,True,76,76,332.0,510.7292456067541,740.5574061297934,31.90276725243279,guardband anchor upper,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_ii,Capstone II,750.0,True,85,85,365.0,569.4366700852589,744.6366700852589,24.07511065529881,cap-normalized anchor margin with frequency scaling,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_iii_full,Capstone III,750.0,True,104,104,406.0,651.930630815511,749.81808303636,13.0759158912652,full bounded-error robust upper,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,baseline,Baseline (no capping),800.0,True,114,114,431.0,702.3634282063533,702.3634282063533,,uncapped,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_i,Capstone I,800.0,True,81,81,354.0,548.8561634306747,795.8414369744783,31.392979571165668,guardband anchor upper,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_ii,Capstone II,800.0,True,89,89,384.0,602.7803565536133,799.3883565536132,24.65245543079834,cap-normalized anchor margin with frequency scaling,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_iii_full,Capstone III,800.0,True,111,111,427.0,692.7909734370762,796.80747705116,13.401128320365475,full bounded-error robust upper,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,baseline,Baseline (no capping),900.0,True,114,114,431.0,702.3634282063533,702.3634282063533,,uncapped,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_i,Capstone I,900.0,True,93,93,392.0,619.1105958426522,897.7103639718456,31.20993379526087,guardband anchor upper,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_ii,Capstone II,900.0,True,107,107,410.0,661.2942286509077,897.4542286509077,26.522863483232477,cap-normalized anchor margin with frequency scaling,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_iii_full,Capstone III,900.0,True,114,114,431.0,702.3634282063533,807.8158000358287,21.959619088182965,full bounded-error robust upper,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,baseline,Baseline (no capping),1000.0,True,114,114,431.0,702.3634282063533,702.3634282063533,,uncapped,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_i,Capstone I,1000.0,True,110,110,421.0,682.0518786210648,988.9752240005439,31.79481213789352,guardband anchor upper,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_ii,Capstone II,1000.0,True,114,114,431.0,702.3634282063533,978.2034282063532,29.763657179364667,cap-normalized anchor margin with frequency scaling,0.064,100.0
+a_cap_sweep,SIM_DIR-1784876009,tensor3_ttv,capstone_iii_full,Capstone III,1000.0,True,114,114,431.0,702.3634282063533,807.8158000358287,29.763657179364667,full bounded-error robust upper,0.064,100.0
+b_tradeoff,SIM_DIR-1784876009,tensor3_ttv,capstone_i,Capstone I,700.0,True,73,73,313.0,479.22403074436903,694.8748445793351,31.53942417937585,guardband anchor upper,0.064,100.0
+b_tradeoff,SIM_DIR-1784876009,tensor3_ttv,capstone_ii,Capstone II,700.0,True,80,80,346.0,535.6162921346598,690.6242921346599,23.48338683790574,cap-normalized anchor margin with frequency scaling,0.064,100.0
+b_tradeoff,SIM_DIR-1784876009,tensor3_ttv,capstone_iii_full,Capstone III,700.0,True,89,89,384.0,602.7803565536133,693.2952676351775,13.88852049234096,full bounded-error robust upper,0.064,100.0

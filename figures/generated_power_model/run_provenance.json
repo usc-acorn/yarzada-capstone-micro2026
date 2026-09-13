@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "is_synthetic": true,
+  "manifest": "manifest.json",
+  "power_unit_input": "W",
+  "power_unit_output": "mW",
+  "training_names": [
+    "vec_elemadd",
+    "tensor3_ttv",
+    "mat_elemmul",
+    "mat_mask_tri",
+    "mat_sddmm",
+    "mat_mattransmul",
+    "tensor3_mttkrp",
+    "tensor3_innerprod"
+  ],
+  "heldout_names": [
+    "harris",
+    "unsharp",
+    "gaussian"
+  ],
+  "reference_calibration_workload": "vec_elemadd",
+  "figure5_vecadd_only_scale_factor": 0.9216346895900941,
+  "figure10_workload": "vec_elemadd",
+  "dynamic_ridge": 0.0001,
+  "leakage_ridge": 1e-06,
+  "gamma_iterations": 12,
+  "gamma_prior_strength": 0.1
+}

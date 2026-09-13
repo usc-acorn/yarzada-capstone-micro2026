@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "is_synthetic": true,
+  "description": "Deterministic synthetic PTPX-like data for demonstrating the Capstone power model workflow. Not derived from the NDA-protected reports.",
+  "seed": 7,
+  "power_unit": "W",
+  "root_candidates": [
+    "BLOCK_0_application_graph",
+    "application_graph"
+  ],
+  "hierarchy_mode": "direct_children",
+  "consistency_tolerance": 0.0001,
+  "reference_calibration_workload": "vec_elemadd",
+  "figure10_workload": "vec_elemadd",
+  "feature_order": [
+    "num_pe_tiles",
+    "num_pe_ports",
+    "num_mem_tiles",
+    "num_mem_ports",
+    "num_io_tiles",
+    "num_ic_rmux",
+    "num_ic_reg",
+    "num_ic_port",
+    "num_ic_sb",
+    "num_pipeline_regs",
+    "bias"
+  ],
+  "leak_feature_order": [
+    "num_pe_tiles",
+    "num_mem_tiles",
+    "num_io_tiles",
+    "num_pipeline_regs",
+    "bias"
+  ],
+  "proxy_weights": {
+    "num_ic_reg": 1.0,
+    "num_pipeline_regs": 1.0,
+    "num_io_tiles": 0.1,
+    "num_ic_rmux": 0.5,
+    "num_ic_sb": 0.5,
+    "num_ic_port": 0.25,
+    "num_pe_tiles": 0.1,
+    "num_mem_tiles": 0.2,
+    "num_pe_ports": 0.05,
+    "num_mem_ports": 0.05
+  },
+  "datasets": [
+    {
+      "name": "vec_elemadd",
+      "split": "train",
+      "report": "reports/vec_elemadd.txt",
+      "features": {
+        "num_pe_tiles": 14,
+        "num_pe_ports": 23,
+        "num_mem_tiles": 7,
+        "num_mem_ports": 9,
+        "num_io_tiles": 6,
+        "num_ic_rmux": 313,
+        "num_ic_reg": 256,
+        "num_ic_port": 53,
+        "num_ic_sb": 610,
+        "num_pipeline_regs": 148
+      }
+    },
+    {
+      "name": "tensor3_ttv",
+      "split": "train",
+      "report": "reports/tensor3_ttv.txt",
+      "features": {
+        "num_pe_tiles": 18,
+        "num_pe_ports": 28,
+        "num_mem_tiles": 8,
+        "num_mem_ports": 12,
+        "num_io_tiles": 8,
+        "num_ic_rmux": 424,
+        "num_ic_reg": 505,
+        "num_ic_port": 75,
+        "num_ic_sb": 860,
+        "num_pipeline_regs": 253
+      }
+    },
+    {
+      "name": "mat_elemmul",
+      "split": "train",
+      "report": "reports/mat_elemmul.txt",
+      "features": {
+        "num_pe_tiles": 20,
+        "num_pe_ports": 31,
+        "num_mem_tiles": 10,
+        "num_mem_ports": 13,
+        "num_io_tiles": 8,
+        "num_ic_rmux": 483,
+        "num_ic_reg": 499,
+        "num_ic_port": 87,
+        "num_ic_sb": 990,
+        "num_pipeline_regs": 251
+      }
+    },
+    {
+      "name": "mat_mask_tri",
+      "split": "train",
+      "report": "reports/mat_mask_tri.txt",
+      "features": {
+        "num_pe_tiles": 29,
+        "num_pe_ports": 42,
+        "num_mem_tiles": 11,
+        "num_mem_ports": 18,
+        "num_io_tiles": 12,
+        "num_ic_rmux": 613,
+        "num_ic_reg": 665,
+        "num_ic_port": 96,
+        "num_ic_sb": 1410,
+        "num_pipeline_regs": 301
+      }
+    },
+    {
+      "name": "mat_sddmm",
+      "split": "train",
+      "report": "reports/mat_sddmm.txt",
+      "features": {
+        "num_pe_tiles": 32,
+        "num_pe_ports": 57,
+        "num_mem_tiles": 14,
+        "num_mem_ports": 24,
+        "num_io_tiles": 13,
+        "num_ic_rmux": 812,
+        "num_ic_reg": 707,
+        "num_ic_port": 127,
+        "num_ic_sb": 1551,
+        "num_pipeline_regs": 451
+      }
+    },
+    {
+      "name": "mat_mattransmul",
+      "split": "train",
+      "report": "reports/mat_mattransmul.txt",
+      "features": {
+        "num_pe_tiles": 29,
+        "num_pe_ports": 48,
+        "num_mem_tiles": 12,
+        "num_mem_ports": 19,
+        "num_io_tiles": 11,
+        "num_ic_rmux": 632,
+        "num_ic_reg": 795,
+        "num_ic_port": 110,
+        "num_ic_sb": 1512,
+        "num_pipeline_regs": 368
+      }
+    },
+    {
+      "name": "tensor3_mttkrp",
+      "split": "train",
+      "report": "reports/tensor3_mttkrp.txt",
+      "features": {
+        "num_pe_tiles": 36,
+        "num_pe_ports": 55,
+        "num_mem_tiles": 15,
+        "num_mem_ports": 20,
+        "num_io_tiles": 13,
+        "num_ic_rmux": 736,
+        "num_ic_reg": 801,
+        "num_ic_port": 116,
+        "num_ic_sb": 1721,
+        "num_pipeline_regs": 366
+      }
+    },
+    {
+      "name": "tensor3_innerprod",
+      "split": "train",
+      "report": "reports/tensor3_innerprod.txt",
+      "features": {
+        "num_pe_tiles": 26,
+        "num_pe_ports": 36,
+        "num_mem_tiles": 12,
+        "num_mem_ports": 17,
+        "num_io_tiles": 9,
+        "num_ic_rmux": 586,
+        "num_ic_reg": 649,
+        "num_ic_port": 98,
+        "num_ic_sb": 1107,
+        "num_pipeline_regs": 248
+      }
+    },
+    {
+      "name": "harris",
+      "split": "heldout",
+      "report": "reports/harris.txt",
+      "features": {
+        "num_pe_tiles": 24,
+        "num_pe_ports": 45,
+        "num_mem_tiles": 12,
+        "num_mem_ports": 16,
+        "num_io_tiles": 11,
+        "num_ic_rmux": 611,
+        "num_ic_reg": 635,
+        "num_ic_port": 95,
+        "num_ic_sb": 1169,
+        "num_pipeline_regs": 279
+      }
+    },
+    {
+      "name": "unsharp",
+      "split": "heldout",
+      "report": "reports/unsharp.txt",
+      "features": {
+        "num_pe_tiles": 28,
+        "num_pe_ports": 54,
+        "num_mem_tiles": 13,
+        "num_mem_ports": 21,
+        "num_io_tiles": 12,
+        "num_ic_rmux": 763,
+        "num_ic_reg": 647,
+        "num_ic_port": 115,
+        "num_ic_sb": 1319,
+        "num_pipeline_regs": 325
+      }
+    },
+    {
+      "name": "gaussian",
+      "split": "heldout",
+      "report": "reports/gaussian.txt",
+      "features": {
+        "num_pe_tiles": 20,
+        "num_pe_ports": 27,
+        "num_mem_tiles": 8,
+        "num_mem_ports": 11,
+        "num_io_tiles": 7,
+        "num_ic_rmux": 358,
+        "num_ic_reg": 398,
+        "num_ic_port": 65,
+        "num_ic_sb": 723,
+        "num_pipeline_regs": 193
+      }
+    }
+  ]
+}

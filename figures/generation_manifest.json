@@ -1,0 +1,90 @@
+{
+  "data_dir": "data",
+  "paper_figure_generators": {
+    "top_level": "plot/generate_capstone_figures.py",
+    "figures5_and_9": "plot/generate_capstone_figures.py",
+    "figure10_public_demo": "src/capstone_power_model.py",
+    "figures11_13_tables7_9": "plot/generate_capstone_figures.py"
+  },
+  "metric_power_source": "P_mean_mW",
+  "figure11_kernel": "tensor3_ttv",
+  "figure12_sweep_csv": "figure12_sweep.csv",
+  "table7_aggregate_reference_rows": [
+    {
+      "controller": "Scalar Aggregate NNLS",
+      "source": "derived_from_uncapped_cascade_selection"
+    },
+    {
+      "controller": "Signoff oracle",
+      "source": "transcribed_from_paper"
+    }
+  ],
+  "capstone_iii_main_mode": "capstone_iii_full",
+  "table9": {
+    "computed_kernels": [
+      "tensor3_innerprod",
+      "mat_sddmm"
+    ],
+    "prior_rows": [
+      "RipTide",
+      "Snafu",
+      "UE-CGRA",
+      "Plasticine"
+    ],
+    "throttling_divisors": [
+      1,
+      2,
+      4
+    ]
+  },
+  "runs": [
+    {
+      "kernel": "vec_elemadd",
+      "run_id": "SIM_DIR-1784865603",
+      "cap_mW": 350.0,
+      "directory": "capstone_vec_elemadd"
+    },
+    {
+      "kernel": "mat_elemmul",
+      "run_id": "SIM_DIR-1784864471",
+      "cap_mW": 650.0,
+      "directory": "capstone_mat_elemmul"
+    },
+    {
+      "kernel": "tensor3_ttv",
+      "run_id": "SIM_DIR-1784861664",
+      "cap_mW": 700.0,
+      "directory": "capstone_tensor3_ttv"
+    },
+    {
+      "kernel": "tensor3_mttkrp",
+      "run_id": "SIM_DIR-1784850421",
+      "cap_mW": 1300.0,
+      "directory": "capstone_tensor3_mttkrp"
+    },
+    {
+      "kernel": "tensor3_innerprod",
+      "run_id": "SIM_DIR-1784863204",
+      "cap_mW": 750.0,
+      "directory": "capstone_tensor3_innerprod"
+    },
+    {
+      "kernel": "mat_sddmm",
+      "run_id": "SIM_DIR-1784855095",
+      "cap_mW": 1300.0,
+      "directory": "capstone_mat_sddmm"
+    },
+    {
+      "kernel": "mat_mask_tri",
+      "run_id": "SIM_DIR-1784852438",
+      "cap_mW": 1100.0,
+      "directory": "capstone_mat_mask_tri"
+    },
+    {
+      "kernel": "mat_mattransmul",
+      "run_id": "SIM_DIR-1784853860",
+      "cap_mW": 1000.0,
+      "directory": "capstone_mat_mattransmul"
+    }
+  ]
+}

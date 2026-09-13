@@ -1,0 +1,7 @@
+controller,success_pct,avg_norm_freq,median_delta_cap_pct,K,source
+Cascade,0.0,1.0,,1,computed_from_all_modes_dumps
+Scalar Aggregate NNLS,0.0,1.0,,1,derived_from_uncapped_cascade_selection
+Signoff oracle,100.0,1.0,3.13,1,transcribed_from_paper
+Capstone I,100.0,0.6480477092178234,31.233536574017577,≤ 4,computed_from_all_modes_dumps
+Capstone II,100.0,0.7365151623470125,22.25676405953707,≤ 4,computed_from_all_modes_dumps
+"Capstone III, K ≤ 4",100.0,0.8083999879032142,13.851293110149957,≤ 4,computed_from_all_modes_dumps
